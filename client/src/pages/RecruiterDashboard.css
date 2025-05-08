@@ -1,0 +1,26 @@
+.recruiter-dashboard {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.job-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.job-card {
+    background: #0073b1;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.job-card:hover {
+    transform: scale(1.05);
+}
